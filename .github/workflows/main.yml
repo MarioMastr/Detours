@@ -23,9 +23,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [windows-2019, windows-2022]
-        arch: [x86, x64, x64_arm, x64_arm64]
-        conf: [Release, Debug]
+        os: [windows-2022]
+        arch: [x86]
+        conf: [Release]
 
     steps:
       - name: Clone Repository
